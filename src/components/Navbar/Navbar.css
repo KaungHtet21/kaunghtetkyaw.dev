@@ -1,0 +1,51 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.n-list, .n-icon-list{
+    flex: 10;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-link a:hover{
+    color: black;
+}
+
+.n-right{
+    display: end;
+    flex: -1;
+    color: grey;
+}
+
+.n-icon-list>ul{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.n-list>ul>li:hover, .n-icon-list>ul>li:hover {
+    cursor: pointer;
+    color: black;
+}

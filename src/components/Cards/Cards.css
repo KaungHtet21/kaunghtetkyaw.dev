@@ -1,0 +1,52 @@
+.c-wrapper {
+    padding: 0 2rem 0 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: -5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
+    /* styles same as work.css */
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--cardColor);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+.card>span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card>span:nth-of-type(2) {
+    font-weight: 300;
+}
+
+.c-wrapper .swiper{
+    width: 100%;
+    height: 70%;
+}
+
+.c-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-wrapper .swiper-pagination-bullet-active{
+    background: black;
+}
+
+.card:hover{
+    cursor: pointer;
+}

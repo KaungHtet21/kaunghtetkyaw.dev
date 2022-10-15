@@ -1,0 +1,23 @@
+.ap-wrapper{
+    height: 35vh;
+    width: 100%;
+}
+
+.ap-image{
+    margin-left: 32rem;
+}
+
+.ap-image>img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+}
+
+.color-bg{
+    position: absolute;
+    background-color: rgb(194, 199, 236);
+    height: 12rem;
+    width: 100%;
+    z-index: -1;
+    margin-top: -9rem;
+}

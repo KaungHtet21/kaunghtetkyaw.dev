@@ -1,0 +1,36 @@
+.h-wrapper{
+    height: 40vh;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.h-left{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.h-left>img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+.h-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.h-right>:nth-child(1){
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.h-right>:nth-child(2), .h-right>:nth-child(3){
+    font-size: 2rem;
+    font-weight: bold;
+    color: gray;
+}

@@ -1,0 +1,28 @@
+.quote {
+    margin-left: 6rem;
+}
+
+blockquote {
+    text-indent: -0.45em;
+    padding-left: 1rem;
+    border-left: 3px solid red;
+    font: 1.4rem/1.4 Georgia, serif;
+    font-style: italic;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after{
+    content: close-quote;
+}
+
+blockquote{
+    quotes: "“" "”" "‘" "’";
+}
+
+figcaption{
+    margin-left: 4rem;
+    font: 1.4rem/1.4 Georgia, serif;
+}

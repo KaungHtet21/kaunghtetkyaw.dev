@@ -1,0 +1,10 @@
+.cm-wrapper {
+    height: 20vh;
+    width: 35rem;
+}
+
+.sm-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
