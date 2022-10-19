@@ -17,4 +17,15 @@
 
 .glass>p{
     font-size: 18px;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .m-wrapper{
+        width: 22rem;
+    }
+
+    .glass{
+        padding: 20px;
+    }
 }

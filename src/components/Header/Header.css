@@ -1,15 +1,15 @@
 .h-wrapper{
     height: 40vh;
-    margin-top: 4rem;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .h-left{
     display: flex;
     justify-content: center;
-    margin-left: 3rem;
-    margin-right: 2rem;
+    flex: 2.5;
 }
 
 .h-left>img{
@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    flex: 2.5;
 }
 
 .h-right>:nth-child(1){
@@ -32,5 +33,21 @@
 .h-right>:nth-child(2), .h-right>:nth-child(3){
     font-size: 2rem;
     font-weight: bold;
-    color: gray;
+    color: rgb(92, 90, 90);
+}
+
+@media screen and (max-width: 480px) {
+    .h-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .h-right{
+        margin-left: 2.5rem;
+    }
+
+    hr{
+        display: none;
+    }
 }
