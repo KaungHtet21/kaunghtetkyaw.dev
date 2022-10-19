@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar'
 function Home() {
   return (
     <div>
+      <Navbar/>
       <Header/>
       <Cards/>
     </div>

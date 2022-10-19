@@ -28,7 +28,10 @@ function Testimonials() {
                       title: article.title,
                       bg_image: article.bg_image,
                       genre: article.genre,
-                      date: article.date,
+                      duration: article.duration,
+                      date: article.date,                      
+                      body: article.body,
+                      image_src: article.image_src
                     },
                   })
                 }

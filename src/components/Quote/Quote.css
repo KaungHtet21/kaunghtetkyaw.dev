@@ -26,3 +26,13 @@ figcaption{
     margin-left: 4rem;
     font: 1.4rem/1.4 Georgia, serif;
 }
+
+@media screen and (max-width: 480px) {
+    .quote{
+        margin-left: 0;
+    }
+    
+    .blockquote{
+        font: 1rem/1 Georgia, serif;
+    }
+}

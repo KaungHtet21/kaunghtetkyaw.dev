@@ -1,10 +1,9 @@
 .ap-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 35vh;
-    width: 100%;
-}
-
-.ap-image{
-    margin-left: 32rem;
 }
 
 .ap-image>img {
@@ -19,5 +18,15 @@
     height: 12rem;
     width: 100%;
     z-index: -1;
-    margin-top: -9rem;
+}
+
+@media screen and (max-width: 480px) {
+    .ap-image>img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .color-bg{
+        height: 8rem;
+    }
 }
